@@ -8,10 +8,6 @@ ransac_n = 500
 ransac_eps = 2
 window_size = 21
 
-def sign_academic_honesty_policy():
-    print("I, %s (%s), certify that I have read and agree to the Code of Academic Integry." %
-        ("Canyon Clark", "cac2323"))
-
 
 def estimate_P(uv: np.ndarray, X_world: np.ndarray) -> np.ndarray:
     """
